@@ -1,0 +1,18 @@
+{
+  "name": "chain-analytics-agent",
+  "version": "1.0.0",
+  "description": "Real-time blockchain analytics - TVL, stablecoins, bridges, and chain comparisons",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "start": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@lucid-agents/core": "latest",
+    "@lucid-agents/http": "latest",
+    "@lucid-agents/hono": "latest",
+    "@lucid-agents/payments": "latest",
+    "hono": "^4.0.0",
+    "zod": "^4.0.0"
+  }
+}
